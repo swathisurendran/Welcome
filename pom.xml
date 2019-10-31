@@ -27,6 +27,14 @@
 			<artifactId>servlet-api</artifactId>
 			<version>3.0-alpha-1</version>
 		</dependency>
+    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-runner -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-runner</artifactId>
+    <version>9.3.21.RC0</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
   <build>
     <finalName>welcometobaabtra</finalName>
